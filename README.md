@@ -25,7 +25,7 @@ As tree lovers, we were aiming for introducing tree's values and benefits to the
 ## YOLO Training
 
 * Training process was strongly inspired by [experiencor’s keras-yolo3 project](https://github.com/experiencor/keras-yolo3)
-* Revised prediction module to **support truetype fonts and Chinese display**
+* Revised [**bbox.py**](https://github.com/lennox0909/Tree_recognition_project/blob/master/bbox.py) module to **support truetype fonts and Chinese display**
 
 ## Backend Map
 
