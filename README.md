@@ -15,8 +15,8 @@ As tree lovers, we were aiming for introducing tree's values and benefits to the
 
 ## Data Collection & Public Released
 
-* 10 members were tree knowledge trained, then scatter out for photoshooting, where monstly in urban/suburban areas in Taipei.
-* Data released on [**kaggle**](https://www.kaggle.com/c/whichtree-b/data) and followed CC BY 4.0 protocol
+* 10 members were tree-knowledge trained, then scatter out for photoshooting, where monstly in urban/suburban areas in Taipei.
+* Data released on [**kaggle**](https://www.kaggle.com/c/whichtree-b/data) and followed `CC BY 4.0` protocol
 
 ## Data Annotation for YOLO training
 
