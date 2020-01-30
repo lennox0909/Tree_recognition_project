@@ -1,0 +1,344 @@
+[
+{"type": "flex", 
+"altText": "後端設計",
+"contents": 
+
+
+
+
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/JHlZIOT.jpg",
+            "size": "full",
+            "aspectMode": "cover",
+            "aspectRatio": "818:1240",
+            "gravity": "top"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "size": "xl",
+                    "color": "#006400",
+                    "weight": "bold",
+                    "text": "Chatbot API + FTP"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "1. 使用者透過Line與後端Server聯繫\n2. 從FTP下載Android App安裝檔",
+                    "color": "#006400",
+                    "size": "sm",
+                    "flex": 0,
+                    "wrap": true
+                  }
+                ],
+                "spacing": "lg"
+              }
+            ],
+            "position": "relative",
+            "offsetBottom": "0px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "backgroundColor": "#98FB98",
+            "paddingAll": "20px",
+            "paddingTop": "18px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "後端架構: 提供順暢的使用體驗",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "xs",
+                "offsetTop": "3px"
+              }
+            ],
+            "position": "absolute",
+            "cornerRadius": "20px",
+            "offsetTop": "18px",
+            "backgroundColor": "#ff334baa",
+            "offsetStart": "18px",
+            "height": "25px",
+            "width": "200px"
+          }
+        ],
+        "paddingAll": "0px"
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/gosWewx.jpg",
+            "size": "full",
+            "aspectMode": "cover",
+            "aspectRatio": "818:1240",
+            "gravity": "top"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "GCP Server + LB/FW",
+                    "size": "xl",
+                    "color": "#006400",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "1. 在雲端建立分流負載及防火牆\n2. 自動複製多套Server分擔負載",
+                    "color": "#006400",
+                    "size": "sm",
+                    "flex": 0,
+                    "wrap": true
+                  }
+                ],
+                "spacing": "lg"
+              }
+            ],
+            "position": "absolute",
+            "offsetBottom": "0px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "backgroundColor": "#98FB98",
+            "paddingAll": "20px",
+            "paddingTop": "18px"
+          }
+        ],
+        "paddingAll": "0px"
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/2VOty1Z.jpg",
+            "size": "full",
+            "aspectMode": "cover",
+            "aspectRatio": "818:1240",
+            "gravity": "top"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "AI Chatbot App + DB",
+                    "size": "xl",
+                    "color": "#006400",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "1. NGINX與unix socket高效處理流量\n2. Django與uWSGI包裝Chatbot AI模型",
+                    "color": "#006400",
+                    "size": "sm",
+                    "flex": 0,
+                    "wrap": true
+                  }
+                ],
+                "spacing": "lg"
+              }
+            ],
+            "position": "absolute",
+            "offsetBottom": "0px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "backgroundColor": "#98FB98",
+            "paddingAll": "20px",
+            "paddingTop": "18px"
+          }
+        ],
+        "paddingAll": "0px"
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Line Chatbot API"
+              },
+              {
+                "type": "text",
+                "text": "DNS Service"
+              },
+              {
+                "type": "text",
+                "text": "GCP: Google Cloud Platform"
+              },
+              {
+                "type": "text",
+                "text": "LB: Load Balance"
+              },
+              {
+                "type": "text",
+                "text": "FW: Firewall"
+              },
+              {
+                "type": "text",
+                "text": "CentOS 7"
+              },
+              {
+                "type": "text",
+                "text": "NGINX"
+              },
+              {
+                "type": "text",
+                "text": "Unix Socket"
+              },
+              {
+                "type": "text",
+                "text": "Django"
+              },
+              {
+                "type": "text",
+                "text": "uWSGI"
+              },
+              {
+                "type": "text",
+                "text": "mangoDB"
+              }
+            ],
+            "offsetTop": "50px",
+            "offsetBottom": "10px",
+            "offsetStart": "10px",
+            "offsetEnd": "10px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "採用技術 / 平台",
+                    "size": "xl",
+                    "color": "#006400",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "1. 提供最順暢的使用體驗\n2. 系統可用度 99.99%",
+                    "color": "#006400",
+                    "size": "sm",
+                    "flex": 0,
+                    "wrap": true
+                  }
+                ],
+                "spacing": "lg"
+              }
+            ],
+            "position": "absolute",
+            "offsetBottom": "0px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "backgroundColor": "#98FB98",
+            "paddingAll": "20px",
+            "paddingTop": "18px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "技術列表",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "xs",
+                "offsetTop": "3px"
+              }
+            ],
+            "position": "absolute",
+            "cornerRadius": "20px",
+            "offsetTop": "18px",
+            "backgroundColor": "#ff334baa",
+            "offsetStart": "18px",
+            "height": "25px",
+            "width": "80px"
+          }
+        ],
+        "paddingAll": "0px"
+      }
+    }
+  ]
+}
+
+
+
+
+
+}
+]

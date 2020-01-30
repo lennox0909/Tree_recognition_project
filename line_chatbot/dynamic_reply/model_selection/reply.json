@@ -1,0 +1,100 @@
+[
+{"type": "flex", 
+"altText": "選擇模型",
+"contents":
+
+
+
+{
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "請選擇辨識模型",
+        "size": "xl"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "物件偵測：樹形",
+              "data": "model=yolo_tree"
+            },
+            "style": "secondary",
+            "color": "#2E8B57"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "物件偵測：葉子",
+              "data": "model=yolo_leaf"
+            },
+            "style": "secondary",
+            "color": "#3CB371"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "影像辨識：樹形",
+              "data": "model=cnn_tree"
+            },
+            "style": "secondary",
+            "color": "#CD5C5C"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "影像辨識：葉子",
+              "data": "model=cnn_leaf"
+            },
+            "style": "secondary",
+            "color": "#F08080"
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    "header": {
+      "backgroundColor": "#F0FFF0"
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+]
