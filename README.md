@@ -24,7 +24,7 @@ As tree lovers, we were aiming for introducing tree's values and benefits to the
 
 ## YOLO Training
 
-* Training was stringly inspired by [experiencor’s keras-yolo3 project](https://github.com/experiencor/keras-yolo3)
+* Training process was strongly inspired by [experiencor’s keras-yolo3 project](https://github.com/experiencor/keras-yolo3)
 * Revised prediction module to **support truetype fonts and Chinese display**
 
 ## Backend Map
