@@ -117,7 +117,8 @@ def _main_(args):
             boxes = get_yolo_boxes(infer_model, [image], net_h, net_w, config['model']['anchors'], obj_thresh, nms_thresh)[0]
 
             # draw bounding boxes on the image using labels
-            draw_boxes(image, boxes, config['model']['labels'], obj_thresh) 
+#             draw_boxes(image, boxes, config['model']['labels'], obj_thresh)
+            image = draw_boxes(image, boxes, config['model']['labels'], obj_thresh)
      
             # write the image with bounding boxes to file
             cv2.imwrite(output_path + image_path.split('/')[-1], np.uint8(image))         
