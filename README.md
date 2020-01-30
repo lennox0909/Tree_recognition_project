@@ -1,3 +1,5 @@
+![sample](https://raw.githubusercontent.com/lennox0909/Tree_recognition_project/master/img_sample/P_20191010_135321_yolo_leaf.jpg)
+
 # Taiwanese Tree Recognition Project (Aug - Nov, 2019)
 
 As tree lovers, we were aiming for introducing tree's values and benefits to the public. 
@@ -32,6 +34,7 @@ As tree lovers, we were aiming for introducing tree's values and benefits to the
 
 ## Line Chatbot Frontend Design
 
+* CSS design [folder](https://github.com/lennox0909/Tree_recognition_project/tree/master/line_chatbot/dynamic_reply) for reference
 
 
 
