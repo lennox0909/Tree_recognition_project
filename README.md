@@ -62,6 +62,10 @@ As tree lovers, we were aiming for introducing tree's values and benefits to the
 ## Backend Map
 ![Backend Map](https://raw.githubusercontent.com/lennox0909/Tree_recognition_project/master/backend_map.png)
 
+## Tensorflow graph in multi-thread environment
+
+* Revised [**utils.py**](https://github.com/lennox0909/Tree_recognition_project/blob/master/line_chatbot/yolov3_expe/utils/utils.py) function 'get_yolo_boxes' at line 233, to walk around multi-thread issue on Line chatbot
+
 ## Line Chatbot Frontend Design
 
 * CSS design [folder](https://github.com/lennox0909/Tree_recognition_project/tree/master/line_chatbot/dynamic_reply) for reference
