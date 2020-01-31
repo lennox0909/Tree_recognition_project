@@ -10,6 +10,14 @@ As tree lovers, we were aiming for introducing tree's values and benefits to the
 * Build backend on `Google Cloud Platform`
 * Build `Line Chatbot` as frontend for user easy access
 
+## Todo list:
+- [x] Data release on kaggle
+- [x] Yolo3 Chinese display
+- [ ] Backend setting release
+- [ ] Django setting release
+- [x] Resolve YOLO multi-thread issue on Line Chatbot
+
+
 ---
 
 ## Target Trees
