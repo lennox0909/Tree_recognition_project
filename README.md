@@ -16,6 +16,7 @@ As tree lovers, we were aiming for introducing tree's values and benefits to the
 - [ ] Backend setting release
 - [ ] Django setting release
 - [x] Resolve YOLO multi-thread issue on Line Chatbot
+- [ ] Deploy on Nvidia Jetson Nano
 
 
 ---
