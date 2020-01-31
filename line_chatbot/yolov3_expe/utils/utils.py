@@ -230,7 +230,7 @@ def preprocess_input(image, net_h, net_w):
 def normalize(image):
     return image/255.
        
-def get_yolo_boxes(model, images, net_h, net_w, anchors, obj_thresh, nms_thresh, graph):
+def get_yolo_boxes(model, images, net_h, net_w, anchors, obj_thresh, nms_thresh, graph):  # add parameter 'graph'
     image_h, image_w, _ = images[0].shape
     nb_images           = len(images)
     batch_input         = np.zeros((nb_images, net_h, net_w, 3))
@@ -240,7 +240,7 @@ def get_yolo_boxes(model, images, net_h, net_w, anchors, obj_thresh, nms_thresh,
         batch_input[i] = preprocess_input(images[i], net_h, net_w)        
 
     # run the prediction
-    with graph.as_default():
+    with graph.as_default():  # set graph.as_default() to walk around multi-thread issue
         batch_output = model.predict_on_batch(batch_input)
     batch_boxes  = [None]*nb_images
 
